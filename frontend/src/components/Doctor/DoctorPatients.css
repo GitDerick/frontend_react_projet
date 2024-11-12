@@ -1,0 +1,40 @@
+/* DoctorPatients.css */
+.doctor-patient-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.doctor-patient-card {
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.doctor-patient-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.doctor-patient-table th,
+.doctor-patient-table td {
+    padding: 15px;
+    text-align: left;
+    border: 2px solid #dee2e6;
+}
+
+.table-dark th {
+    background-color: #343a40;
+    color: white;
+}
+
+.alert {
+    margin-top: 20px;
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}

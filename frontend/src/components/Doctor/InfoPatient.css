@@ -1,0 +1,100 @@
+
+
+/* Style des conteneurs et cartes */
+.info-patient-page .info-patient-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9); /* Couleur blanche avec transparence */
+    padding: 20px;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Cartes de profil du patient */
+.info-patient-page .info-patient-card {
+    background-color: rgba(255, 255, 255, 0.95); /* Légère transparence sur les cartes */
+    border-radius: 0.5rem;
+}
+
+.info-patient-page .info-patient-card-body {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.info-patient-page .info-patient-card-title {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #007bff;
+}
+
+/* Table */
+.info-patient-page .table-hover tbody tr:hover {
+    background-color: rgba(241, 241, 241, 0.8);
+}
+
+/* Style pour les alertes Bootstrap */
+.info-patient-page .alert-info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+}
+
+.info-patient-page .alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Boutons */
+.info-patient-page .btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.info-patient-page .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.info-patient-page .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.info-patient-page .btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.info-patient-page .spinner-border {
+    width: 3rem;
+    height: 3rem;
+    border-width: 0.3rem;
+}
+
+/* Ajustement des boutons dans le tableau */
+.info-patient-page .custom-buttonReply,
+.info-patient-page .custom-buttonRDV,
+.info-patient-page .custom-buttonEditRDV {
+    width: 172px; /* Largeur fixe pour tous les boutons */
+    height: 38px; /* Hauteur fixe pour les boutons */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap; /* Empêche le retour à la ligne dans les boutons */
+}
+
+.info-patient-page .custom-buttonRDV {
+    margin-top: 8px;
+}
+
+/* Arrière-plan transparent pour les cartes */
+.info-patient-page .card {
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.info-patient-profil {
+    border-color: black;
+    
+}

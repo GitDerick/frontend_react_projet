@@ -1,0 +1,84 @@
+Styles personnalisés pour la page MedicalHistory
+.medical-history-container {
+    background-color: #f4f4f9;  /* Un fond très léger pour la section principale */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.page-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem;
+    color: #495057;  /* Un gris foncé pour une meilleure lisibilité */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.medical-card {
+    border: 1px solid #6c757d;  /* Une bordure gris foncé pour un contraste subtil */
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    background-color: #ffffff;  /* Un fond blanc pour les cartes */
+}
+
+.medical-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Ajouter une ombre lors du survol */
+}
+
+.card-header-custom {
+    background-color: #17a2b8;  /* Un bleu clair plus doux pour l'en-tête */
+    padding: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;  /* Texte blanc pour le contraste */
+}
+
+.card-title {
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+}
+
+.files-title {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #343a40;  /* Un gris foncé pour les sous-titres */
+}
+
+.file-list {
+    padding-left: 0;
+}
+
+.file-link {
+    color: #28a745;  /* Un vert vif pour les liens */
+    text-decoration: underline;
+}
+
+.file-link:hover {
+    color: #218838;  /* Un vert légèrement plus foncé au survol */
+}
+
+.file-upload-date {
+    font-style: italic;
+    color: #6c757d;  /* Une couleur grise douce pour les dates */
+}
+
+.loading-message {
+    font-size: 1.5rem;
+    color: #17a2b8;  /* Un bleu clair pour les messages de chargement */
+    font-weight: bold;
+}
+
+.no-history-message {
+    font-size: 1.2rem;
+    color: #6c757d;  /* Un gris plus foncé et lisible pour les messages informatifs */
+    font-style: italic;
+}
+
+/* Transition pour la card */
+.medical-card:hover {
+    border-color: #17a2b8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  /* Une ombre légèrement plus visible au survol */
+}

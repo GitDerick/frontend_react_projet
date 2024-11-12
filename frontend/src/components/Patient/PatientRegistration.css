@@ -1,0 +1,7 @@
+.form-control {
+    border: 2px solid black; /* Bordure plus épaisse et bleue */
+    border-radius: 5px; /* Coins légèrement arrondis */
+    padding: 10px;
+    font-size: 16px;
+  }
+  

@@ -1,0 +1,33 @@
+.input-border {
+  border: 2px solid #007bff;
+  /* Bordure plus visible de couleur bleu */
+  border-radius: 0.375rem;
+  /* Coins arrondis */
+  padding: 10px;
+}
+
+.input-border:focus {
+  border-color: #0056b3;
+  /* Couleur de bordure plus foncée lorsqu'elle est active */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  /* Effet de surbrillance autour du champ */
+}
+
+textarea.input-border {
+  height: 100px;
+  /* Hauteur par défaut des zones de texte */
+}
+
+.form-label {
+  font-weight: 600;
+}
+
+textarea.form-control {
+  border-color: black;
+  /* Hauteur par défaut des zones de texte */
+}
+
+input.form-control {
+  border-color: black;
+  /* Hauteur par défaut des zones de texte */
+}

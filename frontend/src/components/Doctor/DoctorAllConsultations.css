@@ -1,0 +1,159 @@
+/* Container styling specific to DoctorRemoteConsultations */
+.drc-container {
+    margin-top: 50px;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Card styling for the consultations */
+.drc-card {
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.drc-card-header {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.drc-card-header h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.drc-card-body {
+    padding: 20px;
+}
+
+/* Table styling */
+.drc-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+    background-color: white; /* Mettre un fond blanc pour le tableau */
+}
+
+/* Ajout de la couleur du texte explicitement pour les cellules */
+.drc-table th,
+.drc-table td {
+    border: 2px solid black;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    color: black; /* Force le texte à être noir pour s'assurer qu'il est visible */
+}
+
+/* Thicker border for the table header */
+.drc-table th {
+    background-color: #343a40;
+    color: white;
+    font-weight: bold;
+    border: 3px solid black;
+}
+
+/* Couleur pour les lignes du tableau */
+.drc-table tbody tr {
+    color: black; /* Assure que le texte reste noir dans toutes les lignes */
+}
+
+/* Badge styling */
+.badge {
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.bg-success {
+    background-color: #28a745 !important;
+}
+
+.bg-warning {
+    background-color: #ffc107 !important;
+}
+
+/* Button styling */
+.drc-btn-warning {
+    background-color: #ffc107;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+}
+
+.drc-btn-danger {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+}
+
+.drc-btn-warning:hover,
+.drc-btn-danger:hover {
+    opacity: 0.9;
+}
+
+/* Alert message styling */
+.drc-alert {
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.drc-alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.drc-alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.drc-alert-info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+    border: 1px solid #bee5eb;
+}
+
+/* Spinner styling */
+.drc-loading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style spécifique pour les boutons dans la colonne des actions */
+.drc-btn-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Ajout d'un espace entre les boutons */
+}
+
+/* Couleur du texte dans l'en-tête */
+.style-ecrit {
+    color: black;
+}
+
+.sstyle {
+    background-color: aliceblue;
+    border-radius: 20px;
+}

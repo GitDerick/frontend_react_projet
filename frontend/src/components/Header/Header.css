@@ -1,0 +1,33 @@
+.navbar {
+    padding: 1rem 2rem;
+    box-shadow: 0px 4px 10px rgba(234, 7, 7, 0.1);
+    /* Ombre pour donner un effet de profondeur */
+}
+
+.navbar-brand {
+    color: #fff !important;
+    /* Couleur blanche pour le logo */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    /* Couleur blanche pour les liens */
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease-in-out;
+    /* Animation fluide lors du survol */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #293e3c !important;
+    /* Changement de couleur au survol */
+}
+
+.navbar-toggler {
+    border: none;
+    /* Retire les bordures du bouton burger */
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Change la couleur de l'icône du bouton burger */
+}

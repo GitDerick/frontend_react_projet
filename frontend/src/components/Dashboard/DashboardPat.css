@@ -1,0 +1,96 @@
+/* Container principal pour le tableau de bord */
+.dashboard-patient-container {
+    padding-top: 50px;
+  }
+  
+  /* Style des cartes avec bordure noire et design moderne */
+  .dashboard-patient-card {
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .dashboard-patient-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styles des icônes */
+  .dashboard-patient-card-body i {
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  /* Style des titres de carte */
+  .dashboard-patient-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 15px;
+  }
+  
+  /* Badges pour des informations supplémentaires */
+  .dashboard-patient-badge {
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    border-radius: 20px;
+    vertical-align: middle;
+  }
+  
+  /* Couleurs des badges */
+  .dashboard-patient-badge-info {
+    background-color: #17a2b8;
+    color: white;
+  }
+  
+  .dashboard-patient-badge-warning {
+    background-color: #ffc107;
+    color: black;
+  }
+  
+  .dashboard-patient-badge-success {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .dashboard-patient-badge-primary {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Texte des cartes */
+  .dashboard-patient-card-text {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 20px;
+  }
+  
+  /* Style des boutons */
+  .dashboard-patient-btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    text-transform: uppercase;
+  }
+  
+  .dashboard-patient-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style des lignes entre les cartes */
+  .dashboard-patient-divider {
+    width: 100%;
+    border-top: 2px solid #f0f0f0;
+    margin: 40px 0;
+  }
+  
+  /* Ajout d'un espacement entre les colonnes dans les lignes */
+  .dashboard-patient-row .col-md-6 {
+    padding: 0 15px;
+  }
+  
